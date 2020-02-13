@@ -9,6 +9,6 @@ before_script:
   - pip install -r requirements.txt
 
 script: 
-  -  python manage.py test dinosaurios
+  -  python manage.py
 notifications:
 email: false
